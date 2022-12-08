@@ -19,35 +19,39 @@
                 background-color:#48dbfb ;}
 
             
-            .header {
-                       padding-top: 50px;
-                       padding-bottom:40px;
+                .header {
+                       padding-top: 60px;
+                       padding-bottom:60px;
                         background-color: #0abde3;
-                    position:relative;}
+                        position:relative;}
 
             .favicon {position:absolute;
-                     top:0px;
-                     Left:0px;}
-
+                     top:10px;
+                     Left:10px;}
             
-            .body {display:flex;
-                    flex-direction: row;
+            .navbar {position:absolute;
+                     top:30px;
+                     right:30px;}
+            
+            h1 {position:absolute;
+                top:20px;
+                left:120px;}
+
+                .body-layout {display:flex;
+                    flex-direction:row;
                     border:solid 2px lightpink;
-                        padding-top:100px;
-                        padding-bottom:100px;
-                        background-color: #576574;}
+                    margin-top:50px;
+                    background-color: #2f3640;}
 
             .aside {flex:1;
-                    margin-right:10px;
                     color: white;
                     border: solid 2px lightpink;}
+
             .aside2 {flex:1;
-                    margin-right:10px;
                     color:white;
                     border:solid 2px lightpink;}
 
             .main {flex:2;
-                    margin-right:10px;
                     color: black;
                     border:solid 2px lightpink;
                     background-color:#0abde3;}
@@ -61,70 +65,82 @@
                     padding-bottom: 30px;
                     text-align: center;}
 
-            .header ul {border:solid 2px black;
-                display: inline-block;
+            ul {display:inline-block;
                 list-style:none;
-                padding-left:0;
+                padding:0;
                 margin-top: 0;
                 margin-left: 100px;}
 
-            .header li a {text-decoration:none;
+            li a {text-decoration:none;
                     background-color: gray;
-                    color: red;
+                    color: white;
                     display:block;
-                    width: 100px;
+                    width: 150px;
                     padding-top: 20px;
                     padding-bottom: 20px;
                     text-align: center;}
 
             
-            .header li a:hover {background-color: #273c75;}
-            .header li a.active{background-color: navy;}
-            .header li {float:left;}
+            li a:hover {background-color: #273c75;}
+            li a.active{background-color: navy;}
+            li {float:left;}
 
             .heading1 {background-color: #273c75;}
+
+            .main p {color:white; 
+                    font-size:120%;}
+            .footer p{color:white;
+                     font-size:70%;}
      
         </style>
     </head>
 
     <body>
         <div class="header">
+
             <img class="favicon" src="android-chrome-192x192.png" width="100">
-            <ul>
-                    <li><a href="hw22.html">HOME</a></li>
-                    <li><a class="active" href="hw2.html">MAJOR</a></li>
-            <ul>
-        
-        </div>
 
-        <h1 class="heading1">ANGELINA POLAHA</h1>
-        <h2 class="intro">My Major - Communication Design</h2>
+            <ul class="navbar">
+                <li><a href="hw22.html">HOME</a></li>
+                <li><a class="active" href="hw2.html">MAJOR</a></li>
+            </ul>
 
-        <div class="body">
-            <div class="aside">My Family
+            <h1>ANGELINA POLAHA</h1>
+
+    </div>
+
+       
+
+        <div class="body-layout">
+            <div class="aside">
                 <img src="IMG_2831.JPG" width="200">
+                <p>My Family</p>
             </div>
 
 
-            <div class="main">Info:
-                <p1> I am a sophmore at Elon University. I am a double major in both Marketing and Communication Design. I have taken some classes to fulfill my major
+            <div class="main">
+                <h2 >My Major - Communication Design</h2>
+                
+                <p> I am a sophmore at Elon University. I am a double major in both Marketing and Communication Design. I have taken some classes to fulfill my major
                     and as of right now I really enjoy it. I am eager to find out what my job is going to be after college. I also have a lot of friends who are also the 
                     same major as me so I feel knowing a lot of people who are going into the same field as me will be useful. My one friend Holly is one of my best friends
                     who is also a Communication Design major and we are from the same hometown. I am excited to use my skills that I learn and will continue to learn throughout
                     the different classes I take. My favorite communication class I have taken so far is Creating Multimedia Content because I was given the ability to use cameras 
-                    and different equipment from the gear room to take pictures around campus and make a documentary film.</p1>
+                    and different equipment from the gear room to take pictures around campus and make a documentary film.</p>
 
             </div>
 
-            <div class="aside2"> Holly and Me
+            <div class="aside2"> 
+               
                         
                 <img src="IMG_1900.JPG" width="200">
+                <p>Holly and Me</p>
             </div>
 
         </div>
         <div class="footer">
-            I cannot wait to take more classes to fulfill my major as a communications student. I look forward in expanding my knowledge about communication design to help me decide what I actually 
-            want to do with my major after college. I hope to build relationships throughout my remaining time here at Elon to help me make connections with people so I can get an internship and therefore, get a job.
+            <p>I cannot wait to take more classes to fulfill my major as a communications student. I look forward in expanding my knowledge about communication design to help me decide what I actually 
+            want to do with my major after college. I hope to build relationships throughout my remaining time here at Elon to help me make connections with people so I can get an internship and therefore, get a job.</p>
                             </div>
     </body>
  </html>
